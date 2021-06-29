@@ -1,2 +1,8 @@
-# Lightweight Encoder-Decoder Model for Automatic Skin Lesion Segmentation
-The repository is comming soon...
+# Lightweight encoder-decoder model for automatic skin lesion segmentation
+
+Accurate skin lesion segmentation (SLS) is an important step in computer-aided diagnosis of melanoma. Automatic detection of skin lesions in dermoscopy images is challenging because of the presence of artifacts and as lesions can have heterogeneous texture, color, and shape with fuzzy or indistinct boundaries. In this study, automatic SLS was performed using a lightweight encoder-decoder, MobileNetV3-UNet, which can achieve high accuracy with low resources. A comprehensive analysis was performed to improve the accuracy of the method in SLS. The semantic segmentation method consists of an encoder-decoder architecture, data augmentation, learning schemes, and post-processing methods. To enhance the SLS, we modified the decoder with the bidirectional ConvLSTM layer from the BCDU-Net and separable blocks from the separable-UNet architecture. Random augmentation was used to improve image diversity in the training dataset to avoid overfitting. Furthermore, a learning scheme based on stochastic weight averaging (SWA) was used to obtain better generalization by averaging multiple local optima. Our method was evaluated using three publicly available datasets, such as ISIC-2017, ISIC-2018, and PH2. We obtained dice coefficient and Jaccard index of 87.74%, 80.25%; 91.01%, 83.44%; and 95.18%, 91.08% for ISIC-2017, ISIC-2018, and PH2, respectively. The experimental results proved that the modified MobileNetV3-UNet method can outperform several state-of-the-art methods.
+
+Citation
+--------
+> [Adi Wibowo](https://scholar.google.com/citations?user=TLJvwCsAAAAJ&hl=id), Satriawan Rasyid Purnama, Hanif Rasyidi. "Lightweight encoder-decoder model for automatic skin lesion segmentation," in Informatics in Medicine Unlocked, doi: https://doi.org/10.1016/j.imu.2021.100640.
+[Link here](https://www.sciencedirect.com/science/article/pii/S2352914821001295)
