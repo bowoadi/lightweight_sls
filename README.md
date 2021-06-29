@@ -5,4 +5,3 @@ Accurate skin lesion segmentation (SLS) is an important step in computer-aided d
 Citation
 --------
 > [Adi Wibowo](https://scholar.google.com/citations?user=TLJvwCsAAAAJ&hl=id), Satriawan Rasyid Purnama, Hanif Rasyidi. "Lightweight encoder-decoder model for automatic skin lesion segmentation," in Informatics in Medicine Unlocked, doi: https://doi.org/10.1016/j.imu.2021.100640.
-[Link here](https://www.sciencedirect.com/science/article/pii/S2352914821001295)
